@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    flex-grow: 1;
+}
+
+article{
+    flex-grow: 1;
+}
+
+
+@media (max-width: 600px){
+    main{
+        flex-direction: column;
+    }
+    nav, aside{
+        order: 1;
+    }
+}
+
+/*basic syling*/
+header,footer,nav,article,section,aside{
+    padding: 10px;
+    /*border: 2px solid black;*/
+}
+
+header{
+    background-color: tomato;
+}
+footer{
+    background-color: turquoise;
+}
+nav{
+    background-color: lightgray;
+}
+aside{
+    background-color: lightblue;
+}

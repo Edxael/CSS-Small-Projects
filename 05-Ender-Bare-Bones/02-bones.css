@@ -1,0 +1,77 @@
+
+body{
+    background-color: gray;
+
+}
+
+.cont-main1{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/*----- TOP -------*/
+
+.top1{
+    background-color: lightblue;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.img-lg1{
+    width: 78px;
+    height: 78px;
+    padding: 10px 0px 10px 10px;
+}
+
+
+.img-lg2{
+    width: 40px;
+    height: 40px;
+    padding: 30px 30px 30px 0px;
+}
+
+/*----- TOP End -------*/
+/*----- MIDDLE -------*/
+
+.midle1{
+    margin: 10px auto 10px auto;
+
+    display: flex;
+    flex-grow: 1; /*this is what is makin it to take the HEIGHT*/
+}
+
+.left1{
+    background-color: lightblue;
+    width: 40vh;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.center1{
+    background-color: lightblue;
+    border: 1px solid black;
+    margin: 0 10px 0 10px;
+    padding: 15px;
+}
+
+.right1{
+    background-color: lightblue;
+    width: 40vh;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+
+/*----- MIDDLE END -------*/
+/*----- BOTTOM -------*/
+.bottom1{
+    background-color: lightblue;
+    border: 1px solid black;
+    display: flex;
+    padding: 15px;
+    height: 50px;
+}
+/*----- BOTTOM END -------*/
