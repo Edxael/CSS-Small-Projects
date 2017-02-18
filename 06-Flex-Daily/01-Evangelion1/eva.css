@@ -1,0 +1,77 @@
+body{
+    /*background-color: gray;*/
+    background-image: url(IMG/evabg.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.main-c{
+    height: 100vh;
+    padding: 15px;
+}
+
+.tran{
+    background-color: #e6e6ff;
+    opacity: 0.8;
+}
+
+
+/*--------- TOP -----------*/
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-gral{
+    /*justify-content: space-between;*/
+}
+
+.logo-l{
+    width: 50px;
+    height: 50px;
+    margin: 15px 0px 0px 15px;
+}
+
+.logo-r{
+    width: 33px;
+    height: 48px;
+    margin: 15px 15px 0px 0px;
+}
+
+/*------- TOP END ---------*/
+/*------- MIDDLE  ---------*/
+.center{
+    display: flex;
+    margin: 15px 0px 15px 0px;
+    height: 80vh;
+}
+
+.dots-g{
+    list-style: none;
+}
+
+li{
+    margin: 10px;
+}
+
+.cen{
+    margin: 0px 15px 0px 15px;
+
+}
+.m-elem{
+    padding: 25px;
+}
+
+.sides{
+    width: 35vw;
+}
+
+
+/*------- MIDDLE END ---------*/
+/*------- BOTTOM ---------*/
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+
+/*------- BOTTOM END ---------*/
