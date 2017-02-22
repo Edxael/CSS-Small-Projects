@@ -1,0 +1,100 @@
+body{
+    /*background-color: rgb(182, 147, 240);*/
+    background-image: url("IMG/back2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-t{
+    background-color: #e6e6ff;
+    border: 2px solid white;
+    opacity: 0.6;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+    height: 130px;
+}
+
+.img-t-l, .img-t-r{
+    width: 100px;
+    height: 100px;
+    margin: 0px 50px 0px 50px;
+}
+.img-t-c{
+    width: 479px;
+    height: 102px;
+}
+
+
+
+/*----------Middle--------------*/
+
+.middle{
+    display: flex;
+    margin: 15px 0px 15px 0px;
+}
+
+.linea{
+    margin:0px auto;
+    display:block;
+}
+
+.m-c{
+    margin: 0px 15px 0px 15px;
+    padding: 10px;
+}
+
+.m-l, .m-r {
+    width: 30vw;
+    padding: 10px;
+}
+
+.ship-cont{
+    display: flex;
+    justify-content: center;
+}
+
+.ship{
+    width: 682px;
+    height: 300px;
+}
+
+.gtitle{
+    border: 2px solid black;
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(179, 158, 219);
+}
+.game{
+    border: 2px solid black;
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(164, 233, 221);
+}
+
+.game:hover{
+    background-color: rgb(44, 185, 223);
+}
+
+/*-------- BOTTOM ------------*/
+
+.bottom{
+    display: flex;
+    /*margin: 0px 15px 0px 15px;*/
+    padding: 10px;
+}
+
+.wea-img{
+    width: 50px;
+    height: 50px;
+    margin: 0px 25px 0px 10px;
+}
+
+.fa-github{
+    color: Black;
+}
