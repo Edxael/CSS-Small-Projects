@@ -1,0 +1,94 @@
+body{
+    /*background-color: rgb(106, 191, 238);*/
+    background-image: url("IMG/back3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+}
+
+.trans{
+    background-color: rgba(254, 254, 254, 0.5);
+    border: 2px solid white;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.top-title{
+    width: 480px;
+    height: 102px;
+}
+
+.side-img-top{
+    width: 100px ;
+    height: 100px ;
+}
+
+/*------ Middle ---------*/
+.middle{
+    display: flex;
+    margin-top: 15px;
+}
+
+.game-t{
+    background-color: rgb(25, 46, 185);
+    margin-bottom: 10px;
+    padding: 7px;
+    text-align: center;
+}
+
+.game{
+    background-color: rgb(120, 182, 238);
+    margin: 0 0 5px 0;
+    padding: 7px;
+    text-align: center;
+}
+.game:hover{
+    background-color: rgb(53, 131, 235);
+}
+
+.mid-sides{
+    width: 25vw;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+.ship{
+    width: 511px;
+    height: 225px;
+    margin:0px auto;
+    display: block;
+}
+
+.vid{
+    margin:0px auto;
+    display: block;
+    width: 560px;
+    height: 315px;
+}
+
+.article{
+    margin: 0px 15px 15px 15px;
+}
+
+
+/*-------- Bottom -------*/
+.bottom{
+    display: flex;
+    padding: 10px;
+}
+
+.fa-github{
+    color: Black;
+}
+
+.rifle{
+    width: 50px;
+    height: 50px;
+    margin: 0 25px 0 15px;
+}
